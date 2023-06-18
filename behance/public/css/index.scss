@@ -1,0 +1,100 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: 'Kablammo', cursive;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#page_cover_sec{
+    background-image: url(./../img/cover.jpg);
+    height: 600px;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cover_content{
+    h3{
+        color: aliceblue;
+        margin-top: 200px;
+    }
+    button{
+        width: 150px;
+        margin-top: 10px;
+        color: aliceblue;
+    }
+}
+
+#galary_sec{
+    h4{
+        margin-top: 20px;
+        text-align: center;
+    }
+#galary_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    img{
+      
+        width: 240px;
+        height: 300px;
+        margin: 10px;
+    }
+}
+}
+// contact section
+#contact_sec{
+    display: flex;
+    #contact_sec_journey{
+        text-align: center;
+        width: 50%;
+        padding: 15px;
+        line-height: 25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: azure;
+        margin-right: 1px solid red;
+
+    }
+    #contact_sec_map{
+   
+    }
+}
+// footer section
+#footer_sec{
+    height: 200px;
+    background-color: black;
+    color: white;
+   
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px; 
+        margin-top: 15px;
+        border: 1px solid red;
+        margin-left: 48%;
+    }
+    footer{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gainsboro;
+i{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+    }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+#page_cover_sec{
+    height: 390px;  
+}
+}
